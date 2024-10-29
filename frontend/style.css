@@ -1,0 +1,172 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #FFE1FF; /* Light Pink */
+    color: #433878; /* Dark Purple */
+}
+
+h1 {
+    color: #433878; /* Dark Purple */
+    font-size: 32px;
+    font-weight: 600;
+}
+
+button {
+    background-color: #7E60BF; /* Medium Purple */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #433878; /* Dark Purple */
+}
+
+
+nav {
+    background-color: #7E60BF; /* Medium Purple */
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+.Button-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	gap: 20px;
+}
+
+/* Container Style */
+.container {
+    background-color: #E4B1F0; /* Light Purple */
+    padding: 30px;
+    border-radius: 12px;
+    width: 360px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 12px 0;
+    border: 1px solid #7E60BF;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #433878;
+}
+
+input::placeholder {
+    color: #7E60BF;
+}
+
+.todo-page ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.todo-page ul li {
+    background-color: #7E60BF;
+    color: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.error-page h1 {
+    font-size: 80px;
+    color: #7E60BF;
+}
+
+.error-page p {
+    font-size: 18px;
+    margin: 10px 0 20px;
+}
+
+.error-page a {
+    color: #433878;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.navigation {
+    position: fixed;        
+    top: 0;                 
+    left: 0;
+    right: 0;
+    background-color: #7E60BF; 
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    border-radius: 0 0 8px 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;          
+}
+
+#app {
+    background-color: #E4B1F0; 
+    padding: 20px;
+    margin-top: 80px; 
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 16px;
+}
+
+.navigation a:hover {
+    background-color: #5b42a8; 
+    transform: scale(1.05); 
+}
+
+.navigation a:active {
+    background-color: #4a338a;
+    transform: scale(0.95); 
+}
+
+
+.navigation a.active {
+    background-color: #5b42a8;  
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <nav class="navigation">
+        <a href="/login" onclick="route(event)">Login</a>
+        <a href="/todo" onclick="route(event)">To-Do List</a>
+        <a href="/edit_todo" onclick="route(event)">Edit To-Do</a>
+        <a href="/404" onclick="route(event)">404</a>
+    </nav>
+</header>
+
+    <div id="app">
+        <!-- This div is where page content will be loaded -->
+    </div>
+
+    <script src="/js/spa.js"></script>
+</body>
+</html>
